@@ -7,7 +7,7 @@ function Sidebar() {
 {/*Function for the the same like items on the left side */}
 	const recentItem = (Item)=>(
 		<div className="sidebar_recentItem">
-			<span className="sidebar_#">#</span>
+			<span className="sidebar_hash">#</span>
 			<p>{Item}</p>
 		</div>
 		);
