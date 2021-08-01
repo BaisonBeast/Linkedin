@@ -1,10 +1,33 @@
 .sidebar{
 	top: 80px;
 	position: sticky;
-	flex:  0.2;
+	flex: 0.2;
 	border-radius: 10px;
 	text-align: center;
 	height: fit-content;
+}
+
+.sidebar_recentItem{
+	display: flex;
+	font-size: 13px;
+	color: grey;
+	font-weight: bolder;
+	cursor: pointer;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.sidebar_hash{
+	 margin-left: 10px;
+	 margin-right: 5px;
+}
+
+.sidebar_recentItem:hover{
+	color: black;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	cursor: pointer;
+
 }
 
 .sidebar_top > h2{
@@ -68,12 +91,11 @@
 	color:  #7C83FD !important;
 }
 
-
 .sidebar_bottom{
 	text-align: left;
 	padding: 10px;
 	border:  1px solid lightgrey;
 	background-color: white;
 	margin-top: 10px;
-	border-radius: 10px; 
+	border-radius: 10px;
 }
