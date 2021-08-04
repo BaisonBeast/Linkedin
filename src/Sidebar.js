@@ -4,7 +4,7 @@ import "./Sidebar.css";
 
 function Sidebar() {
 
-{/*Function for the the same like items on the left side */}
+/*Function for the items on the left side like the hashtags*/
 	const recentItem = (Item)=>(
 		<div className="sidebar_recentItem">
 			<span className="sidebar_hash">#</span>
