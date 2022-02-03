@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Link of the project :- linkedin-clone-7ac22.firebaseapp.com
+
 In the project directory, you can run:
 
 ### `npm start`
